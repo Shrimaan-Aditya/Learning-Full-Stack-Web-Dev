@@ -1,0 +1,37 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px solid;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.white-text{
+  background-color: red;
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
+
+#outer-box{
+  color: purple;
+  border: 10px solid;
+}
+
+.inner-box{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.box{
+  color: yellow;
+}

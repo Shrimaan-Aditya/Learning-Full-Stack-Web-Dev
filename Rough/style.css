@@ -1,0 +1,13 @@
+.outerbox{
+    background-color: aqua;
+    padding: 10px;
+    border: 10px solid;
+}
+#test{
+    color: palevioletred;
+}
+
+p{
+    background-color: brown;
+    color: blue !important;
+}
