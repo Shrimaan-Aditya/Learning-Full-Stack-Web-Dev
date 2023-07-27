@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box{
+      height: 300px;
+      width: 800px;
+      background-color: blue;
+      position: absolute;
+      top: 200px;
+      left: 200px;
+      border-radius: 20px;
+      
+    }
+    .red-circle{
+      position: relative;
+      top: 150px;
+      left: 550px;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-color: red;
+    }
+    .inner-red-circle{
+      position: absolute;
+      top: 230px;
+      left: 620px;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      background-color: rgb(11, 2, 2);
+    }
+    .inner-red-circle2{
+      position: absolute;
+      z-index: 1;
+      top: 230px;
+      left: 120px;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      background-color: rgb(11, 2, 2);
+    }
+    .red-circle2{
+      position: absolute;
+      top: 150px;
+      left: 50px;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      background-color: red;
+    }
+    .bus-bottom{
+        position: relative;
+        z-index: -1;
+        top: 10px;
+        height: 100px;
+        background-color: rgb(162, 117, 20);
+    }
+    .window1{
+        position: relative;
+        top: 230px;
+        left: 250px;
+        height: 100px;
+        width: 120px;
+        background-color: aqua;
+    }
+    .window2{
+        position: relative;
+        top: 130px;
+        left: 375px;
+        height: 100px;
+        width: 120px;
+        background-color: aqua;
+    }
+    .window3{
+        position: relative;
+        top: 30px;
+        left: 700px;
+        height: 100px;
+        width: 120px;
+        background-color: aqua;
+    }
+    .window4{
+        position: relative;
+        top: -70px;
+        left: 825px;
+        height: 100px;
+        width: 120px;
+        background-color: aqua;
+    }
+    .main-door{
+        position: absolute;
+        top: 238px;
+        left: 505.5px;
+        height: 270px;
+        width: 200px;
+        background-color: blueviolet;
+    }
+    door>.left-door{
+        position: relative;
+        top: -160px;
+        left: 505.5px;
+        height: 250px;
+        width: 90px;
+        background-color: rgb(43, 186, 226);
+    }
+    door>.right-door{
+        position: relative;
+        top: -410px;
+        left: 600.5px;
+        height: 250px;
+        width: 90px;
+        background-color: rgb(43, 192, 226);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+    <div class="inner-red-circle">
+    </div>
+    <div class="red-circle2">
+    </div>
+    <div class="inner-red-circle2">
+    </div>
+    <div class="bus-bottom">
+    </div>
+  </div>
+  <windows>
+    <div class="window1">
+    </div>
+    <div class="window2">
+    </div>
+    <div class="window3">
+    </div>
+    <div class="window4">
+    </div>
+  </windows>
+  <door>
+  <div class="main-door">
+  </div>
+  <div class="left-door">
+  </div>
+  <div class="right-door">
+  </div>
+</door>
+
+
+</body>
+
+</html>

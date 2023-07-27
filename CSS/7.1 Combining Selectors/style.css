@@ -1,1 +1,21 @@
 /* Write your code here: */
+/* body{
+    color: blueviolet;
+} */
+
+h1,h2{
+    color: blueviolet;
+}
+
+.box > p{
+    color: red;
+}
+
+.box li {
+    color: blue;
+}
+
+ul p.done{
+    font-size: 0.7rem;
+}
+
