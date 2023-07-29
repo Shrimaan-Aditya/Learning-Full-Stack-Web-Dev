@@ -1,7 +1,81 @@
+body{
+    background-image: linear-gradient(rgba(176, 176, 239, 0.5), rgba(255, 255, 0, 0.5)),url("../assets/img/back-img1.jpg");
+    border: 3px solid;
+    
+}
+
+img{
+    position: relative;
+    margin-bottom: 0;
+    padding: 0;
+} 
+hr{
+    margin: 0;
+}
+
 button{
-    background-color: green;
+    background-color: rgb(6, 16, 103);
+    margin-left: 3px;
+    padding: 10px;
     color: aliceblue;
 }
+
 a{
     color: aliceblue;
+    text-decoration: none;
+}
+
+h1{
+    position: relative;
+    z-index: 1;
+    background-color:rgb(7, 26, 72);
+    padding: 10px;
+    border: 2px solid rgb(45, 32, 8);
+    border-radius: 3%;
+    margin: 2px;
+    color: aliceblue;
+}
+
+
+h2{
+    position: relative;
+    margin: 4px;
+    background-color: rgb(7, 26, 72);
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(45, 32, 8)
+    
+}
+p{
+    position: relative;
+    margin-left: 4px;
+    margin-top: 0px;
+    border: 5px;
+    padding-left: 4PX;
+}
+
+h3{
+    position: relative;
+    border: 5px;
+    margin-left: 4px;
+    padding: 5px;
+    background-color: orange;
+}
+
+h4{
+    position: relative;
+    margin-left: 4px;
+    margin-top: 0px;
+    border: 5px;
+    padding: 4PX;
+    background-color: rgb(172, 137, 206);
+}
+
+.collegeName>b{
+    background-color: rgb(207, 226, 63);
+    padding: 5px;
+}
+
+.projects>p{
+    background-color: rgb(151, 151, 248);
 }
