@@ -24,7 +24,7 @@ footer {
 }
 
 
-@media(max-width: 500px){
+@media(max-width: 617px){
 .logo{
   width: 150px;
   height: 30px;
@@ -34,6 +34,7 @@ h1{
 }
 img{
   height: 200px;
+  width: 500px;
 }
 h2{
   margin: 0px;
@@ -43,19 +44,45 @@ p{
 }
 }
 
-@media(min-width:501px) and (max-width:1000px) {
+@media(min-width:618px) and (max-width:1000px) {
   .logo{
       height: 35px;
     }
 
   h1{
+    clear: both;
     font-size: 30px;
   }
-  img{
-    height: 200px;
-    float: left;
+  .left{
+    display: block;
   }
-
+  
+  .tile-image{
+    height: 230px;
+    float: left;
+    margin-right: 10px;
+  }
+  .left{
+    position: relative;
+    clear: both;
+  }
+  .right{
+    position: relative;
+    top: 10px;
+    clear: both;
+  }
+  .card-title{
+    position: relative;
+    left: 0px;
+    margin-right: 0px;
+  }
+  p{
+    position: relative;
+    margin: 0px;
+  }
+  footer{
+    margin: 10px;
+  }
 }
 
 
