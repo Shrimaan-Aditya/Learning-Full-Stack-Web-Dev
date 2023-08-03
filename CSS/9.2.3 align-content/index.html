@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Direction</title>
+  <!-- HINT:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
+  https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators 
+  -->
+  <style>
+    .container-start {
+      color: white;
+      padding: 2px;
+      margin: 10px;
+      border: 3px solid goldenrod;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      height: 20vh;
+    }
+    .container-end {
+      color: white;
+      padding: 2px;
+      margin: 10px;
+      border: 3px solid goldenrod;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      height: 20vh;
+    }
+
+    .container-baseline {
+      color: white;
+      padding: 2px;
+      margin: 10px;
+      border: 3px solid goldenrod;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: baseline;
+      height: 20vh;
+    }
+
+    .container-stretch {
+      color: white;
+      padding: 2px;
+      margin: 10px;
+      border: 3px solid goldenrod;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: stretch;
+      height: 20vh;
+    }
+
+    .container-center {
+      color: white;
+      padding: 2px;
+      margin: 10px;
+      border: 3px solid goldenrod;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      height: 20vh;
+    }
+
+    .red {background-color: #eb4d4b;}
+    .orange {background-color: #f0932b;}
+    .yellow {background-color: #f6e58d;}
+    .green {background-color: #6ab04c;} 
+    .blue {background-color: #4834d4;}
+    .indigo {background-color: #30336b;}
+    .purple {background-color: #be2edd;}
+  </style>
+</head>
+
+<body>
+    <h2> align-content: flex-start;</h2>
+
+  <div class="container-start">
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Indigo</div>
+    <div class="purple">Purple</div>
+
+</div>
+
+<h2> align-content: flex-end;</h2>
+
+<div class="container-end">
+    <!--      Part-1      -->
+   
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Indigo</div>
+    <div class="purple">Purple</div>
+
+</div>
+
+<h2> align-content: baseline;</h2>
+
+<div class="container-baseline">
+   
+    <!--      Part-2      -->
+  
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Indigo</div>
+    <div class="purple">Purple</div>
+
+</div>
+
+<h2> align-content: stretch;</h2>
+
+<div class="container-stretch">
+   
+    <!--      Part-3      -->
+    
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Indigo</div>
+    <div class="purple">Purple</div>
+
+</div>
+
+<h2> align-content: center;</h2>
+
+<div class="container-center">
+    
+    <!--      Part-4      -->
+    
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Indigo</div>
+    <div class="purple">Purple</div>
+    
+  </div>
+
+</body>
+
+</html>
