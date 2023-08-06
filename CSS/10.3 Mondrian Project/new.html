@@ -57,6 +57,23 @@
         .white5{
             grid-row: span 2;
         }
+    .buttons{
+      height: 200px;
+      width: 200px;
+      padding: 10px;
+      margin: 10px;
+      border: 5px solid white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .buttons>*{
+      padding: 10px;
+      background-color: rgb(10, 201, 61);
+      text-decoration: none;
+      color: white;
+      text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -71,9 +88,9 @@
         <div class="box white5"></div>
         <div class="box white6"></div>
     </div>
-    <div>
-        <button><a href="./index.html">Art 1</a></button>
-        <button><a href="./new1.html">Art 3</a></button>
-    </div>
+    <div class="buttons">
+        <a href="./index.html" class="button buttons1">ART 1</a>
+        <a href="./new1.html" class="button buttons2">ART 3</a>
+      </div>
 </body>
 </html>
